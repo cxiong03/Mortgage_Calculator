@@ -10,6 +10,8 @@ public class Main {
         final byte MONTHS_IN_YEAR = 12;
         final byte PERCENT = 100;
 
+        int principal = 0;
+
         Scanner scanner = new Scanner(System.in);
 
         while (true) {
