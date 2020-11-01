@@ -9,9 +9,9 @@ public class Main {
     final static byte PERCENT = 100;
 
     public static void main(String[] args) {
-        int principal = (int) readNumber("Principal: ", 1000, 1_000_000);
-        float annualInterest = (float) readNumber("Annual Interest: ", 1, 30);
-        byte years = (byte) readNumber("Period (Years): ", 1, 30);
+        int principal = (int) Console.readNumber("Principal: ", 1000, 1_000_000);
+        float annualInterest = (float) Console.readNumber("Annual Interest: ", 1, 30);
+        byte years = (byte) Console.readNumber("Period (Years): ", 1, 30);
 
         printMortgage(principal, annualInterest, years);
         printPaymentSchedule(principal, annualInterest, years);
